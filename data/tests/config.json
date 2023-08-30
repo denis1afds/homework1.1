@@ -1,0 +1,9 @@
+{
+  "report_size": 10,
+  "report_dir": "E:\\Develop\\CoursePython\\Homeworks\\logAnalyzer\\data\\reports\\test",
+  "report_filename_template": "^nginx-access-ui\\.log-(?P<file_date>[0-9]{8})\\.(?:log|gz)$",
+  "log_filename_template": "^report-(?P<file_date>[0-9]{4}\\.[0-9]{2}\\.[0-9]{2})\\.html$",
+  "log_filedate_format": "%Y-%m-%d",
+  "internal_log_path": "E:\\Develop\\CoursePython\\Homeworks\\LogAnalyzer\\data\\analyzer_logs\\журнал_${date}.log"
+}
+

@@ -1,0 +1,7 @@
+2023-08-30 14:40:38,668 INFO parsing lines:15028, parsings error count:1 (0.007%)
+2023-08-30 14:40:38,669 ERROR File access error
+Traceback (most recent call last):
+  File "E:\Develop\CoursePython\Homeworks\LogAnalyzer\LogAnalyzer.py", line 53, in main
+    with open(config_dict['report_template_path'], mode='r', encoding='utf-8') as rtf:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Develop\\CoursePython\\Homeworks\\LogAnalyzer\\data\\templates\\report1.html'
+2023-08-30 14:41:31,865 INFO parsing lines:15028, parsings error count:1 (0.007%)
