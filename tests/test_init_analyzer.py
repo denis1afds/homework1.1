@@ -112,7 +112,8 @@ class TestInitAnalyzer(unittest.TestCase):
 
         self.assertEqual(result_config['report_size'], 1000)
         self.assertEqual(result_config['report_dir'], os.path.abspath('./data/reports'))
-        self.assertEqual(result_config['report_template_path'], os.path.abspath('./data/templates/report.html'))
+        self.assertEqual(result_config['report_template_path'],
+                         os.path.abspath('./data/templates/report.html'))
         self.assertEqual(result_config['report_filename_template'],
                          r"^report-(?P<file_date>[0-9]{4}\.[0-9]{2}\.[0-9]{2})\.html$")
         for report_filename in TestInitAnalyzer.report_filename_valid:
