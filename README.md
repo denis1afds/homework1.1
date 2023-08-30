@@ -1,3 +1,5 @@
+![Buid Status](https://github.com/denis1afds/homework1.1/actions/workflows/checks.yml/badge.svg&branch=master)
+
 ![Logo of the project](./logo.png)
 
 # Nginx log analyzer
